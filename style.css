@@ -1,0 +1,88 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #222;
+	color: #fff;
+	padding: 1rem 2rem;
+}
+
+.logo {
+	color: #fff;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1.5rem;
+	margin-left: auto;
+	color: #fff;
+}
+
+.hero {
+	width: 100%;
+	text-align: center;
+	background-color: #101a3a;
+}
+
+.about {
+	padding: 5rem 2rem;
+}
+
+.about-values {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.about-values > * {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.about-values i,
+.about-values svg,
+.about-values .icon {
+	flex-shrink: 0;
+}
+
+.cta-button {
+	background-color: #ff6b35;
+	color: #fff;
+}
+
+.services {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.services .service-card {
+	flex: 1;
+	transition: transform 0.2s ease;
+}
+
+.services .service-card:hover {
+	transform: translateY(-5px);
+}
+
+.contact,
+.footer {
+	background-color: #222;
+	color: #fff;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.contact > * {
+	margin: 0;
+}
+
+
