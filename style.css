@@ -1,0 +1,74 @@
+nav {
+	display: flex;
+	align-items: center;
+	background-color: #222;
+	color: #fff;
+	padding: 1rem 2rem;
+}
+
+.logo {
+	color: #fff;
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 1.5rem;
+	margin-left: auto;
+	color: #fff;
+}
+
+.hero {
+	width: 100%;
+	text-align: center;
+	background-color: #101b3f;
+}
+
+.cta-button {
+	background-color: #ffb000;
+	color: #222;
+}
+
+.about {
+	padding: 5rem 2rem;
+}
+
+.about-values {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.about-values > * {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.services {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.services .service-card {
+	flex: 1;
+	transition: transform 0.2s ease;
+}
+
+.services .service-card:hover {
+	transform: translateY(-5px);
+}
+
+.contact,
+.footer {
+	background-color: #222;
+	color: #fff;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
