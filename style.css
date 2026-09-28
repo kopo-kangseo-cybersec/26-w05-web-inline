@@ -1,0 +1,77 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #222;
+	color: #fff;
+}
+
+.logo {
+	color: #fff;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: flex-end;
+	gap: 1rem;
+	margin-left: auto;
+	color: #fff;
+}
+
+/* 내비게이션 링크 색상 및 스타일 */
+.nav-links a {
+	color: #E5E7EB;             /* 마음에 드는 색상 코드로 변경 가능 */
+	text-decoration: none;      /* 밑줄 제거 */
+}
+
+.hero {
+	width: 100%;
+	text-align: center;
+	background-color: #0B1F3A;
+}
+
+.cta-button {
+	background-color: #F59E0B;
+	color: #111827;
+}
+
+.services {
+	display: flex;
+	gap: 1rem;
+}
+
+.services .service-card {
+	flex: 1;
+	transition: transform 0.2s ease;
+}
+
+.services .service-card:hover {
+	transform: translateY(-4px);
+}
+
+.about {
+	padding: 4rem 2rem;
+}
+
+.about-values {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.about-values > * {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.contact,
+.footer {
+	background-color: #222;
+	color: #fff;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+}
