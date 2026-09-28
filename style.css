@@ -1,0 +1,78 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    margin-left: auto;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+    text-align: center;
+    background-color: #0b1d3a;
+}
+
+.cta-button {
+    background-color: #ffb000;
+    color: #111;
+}
+
+.services {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.service-card {
+    flex: 1;
+    transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.about {
+    padding: 5rem 2rem;
+}
+
+.about-values {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-values>* {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact,
+.footer {
+    background-color: #222;
+    color: #fff;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
