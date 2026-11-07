@@ -1,0 +1,122 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #222;
+    color: #fff;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+}
+
+.nav-links a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #bbb;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.service-card {
+    transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    min-height: 60vh;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #101a3a;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-button {
+    padding: 0.75rem 1.5rem;
+    border: 0;
+    border-radius: 6px;
+    background-color: #ffc107;
+    color: #222;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.about {
+    padding: 4rem 2rem;
+}
+
+.about-values {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.about-values > * {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.about-values i,
+.about-values svg {
+    flex-shrink: 0;
+    font-size: 1.5rem;
+}
+
+.contact,
+.footer {
+    padding: 2rem;
+    background-color: #222;
+    color: #fff;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+@media (max-width: 600px) {
+    nav {
+        padding: 1rem;
+    }
+
+    .nav-links {
+        gap: 0.5rem;
+    }
+
+    .services,
+    .about-values {
+        grid-template-columns: 1fr;
+    }
+}
