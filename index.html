@@ -1,115 +1,85 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SecureCore | 차세대 사이버 보안 솔루션</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cut</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- STEP 1. Nav (헤더/네비게이션) -->
-  <header>
-    <nav class="nav">
-      <a href="#hero" class="logo">SecureCore</a>
-      <button class="hamburger" aria-label="메뉴 열기" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="#hero">Hero</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav class="nav">
+            <span class="logo">Cut</span>
+            <ul class="nav-links">
+                <li><a href="#hero">Hero</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <!-- STEP 2. Hero -->
-    <section id="hero" class="hero">
-      <div class="hero-content">
-        <h1 class="hero-title">빈틈없는 보안, 비즈니스의 내일을 지킵니다</h1>
-        <p class="hero-subtitle">최신 위협 인텔리전스와 실전 모의해킹 노하우로 기업의 핵심 자산을 보호합니다.</p>
-        <a href="#contact" class="cta-button">무료 상담 신청</a>
-      </div>
-    </section>
+    <main>
+        <section id="hero" class="hero">
+            <h1 class="hero-title">최고의 기술로 당신의 비전과 가치를 완성합니다</h1>
+            <button class="cta-button">무료 상담 신청</button>
+        </section>
 
-    <!-- STEP 3. Services -->
-    <section id="services" class="services">
-      <h2 class="section-title">핵심 보안 서비스</h2>
-      <div class="service-grid">
-        <article class="service-card">
-          <div class="card-icon">🔍</div>
-          <h3>취약점 진단</h3>
-          <p>웹·모바일·클라우드 인프라의 보안 취약점을 정밀 분석하여 사전 차단합니다.</p>
-          <a href="#contact" class="card-link">자세히 보기 →</a>
-        </article>
+        <section id="services" class="services">
+            <div class="service-card">
+                <div class="service-icon">🔍</div>
+                <h2>취약점 진단</h2>
+                <p>시스템과 네트워크의 보안 약점을 사전에 정밀하게 분석합니다.</p>
+                <a href="#">자세히 보기</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🛡️</div>
+                <h2>모의해킹</h2>
+                <p>실제 공격 시나리오를 바탕으로 보안 침투 가능성을 검증합니다.</p>
+                <a href="#">자세히 보기</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📋</div>
+                <h2>보안 컨설팅</h2>
+                <p>기업 환경에 최적화된 맞춤형 보안 종합 솔루션을 제공합니다.</p>
+                <a href="#">자세히 보기</a>
+            </div>
+        </section>
 
-        <article class="service-card">
-          <div class="card-icon">🛡️</div>
-          <h3>모의해킹</h3>
-          <p>실제 공격자 관점의 시나리오 기반 침투 테스트로 방어 체계를 검증합니다.</p>
-          <a href="#contact" class="card-link">자세히 보기 →</a>
-        </article>
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>Cut은 고객의 소중한 정보 자산을 안전하게 보호하기 위해 끊임없이 혁신하는 정보보안 전문 기업입니다. 풍부한 실무 경험과 전문 지식을 갖춘 보안 전문가들이 신뢰할 수 있는 서비스를 제공합니다.</p>
+            <p class="established">설립연도: 2020년</p>
+            <div class="about-values">
+                <div class="value-item">
+                    <h3>신뢰 (Trust)</h3>
+                    <p>고객과의 강력한 신뢰를 바탕으로 최상의 보안 솔루션을 다짐합니다.</p>
+                </div>
+                <div class="value-item">
+                    <h3>전문성 (Expertise)</h3>
+                    <p>지속적인 연구개발을 통해 최고의 보안 기술력을 유지합니다.</p>
+                </div>
+                <div class="value-item">
+                    <h3>혁신 (Innovation)</h3>
+                    <p>급변하는 위협 환경에 맞추어 선제적이고 혁신적인 대안을 제시합니다.</p>
+                </div>
+            </div>
+        </section>
 
-        <article class="service-card">
-          <div class="card-icon">📋</div>
-          <h3>보안 컨설팅</h3>
-          <p>ISMS-P 인증 대응부터 기업 맞춤형 보안 거버넌스 수립까지 지원합니다.</p>
-          <a href="#contact" class="card-link">자세히 보기 →</a>
-        </article>
-      </div>
-    </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> contact@cut-security.com</p>
+                <p><strong>Phone:</strong> 02-1234-5678</p>
+                <p><strong>Address:</strong> 서울특별시 강남구 테헤란로 123 컷타워 5층</p>
+            </div>
+        </section>
+    </main>
 
-    <!-- STEP 4. About -->
-    <section id="about" class="about">
-      <div class="about-container">
-        <h2 class="section-title">About SecureCore</h2>
-        <span class="founded-badge">설립연도: 2018년</span>
-        <p class="about-desc">
-          SecureCore는 화이트해커와 보안 아키텍트들이 모여 설립한 정보보안 전문 기업입니다.
-          단순한 보안 솔루션 구축을 넘어, 기업 스스로 위협에 대응할 수 있는 지속 가능한 보안 환경을 설계합니다.
-        </p>
+    <footer class="footer">
+        <p>&copy; 2026 Cut. All rights reserved.</p>
+    </footer>
 
-        <div class="about-values">
-          <div class="value-item">
-            <span class="value-icon">⚡</span>
-            <h3>선제적 대응</h3>
-            <p>사고 발생 전 잠재 위협을 조기에 탐지하고 제거합니다.</p>
-          </div>
-          <div class="value-item">
-            <span class="value-icon">🔒</span>
-            <h3>무결성과 신뢰</h3>
-            <p>철저한 비밀 유지와 투명한 진단 리포트를 약속합니다.</p>
-          </div>
-          <div class="value-item">
-            <span class="value-icon">🚀</span>
-            <h3>지속적 혁신</h3>
-            <p>진화하는 공격 기법에 맞서 최신 보안 기술을 연구합니다.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- STEP 5. Contact / Footer -->
-  <section id="contact" class="contact">
-    <div class="contact-container">
-      <h2>Contact Us</h2>
-      <p class="contact-lead">보안 진단 및 상담이 필요하시면 언제든 문의해 주세요.</p>
-      <div class="contact-info">
-        <p><strong>이메일:</strong> example@securecore.com</p>
-        <p><strong>전화번호:</strong> 02-0000-0000</p>
-        <p><strong>주소:</strong> 서울특별시 강남구 테헤란로 000, 시큐어타워 10층 (예시)</p>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <p>&copy; 2026 SecureCore Inc. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>
